@@ -165,6 +165,68 @@ nav ul li a{
     background-color:  rgba(214, 214, 214, 0.824);
 }
 
+.row-cols-1 .col{
+    height: fit-content;
+    padding: 20px;
+    /* background-color: red; */
+}
+
+
+.row-cols-1 .col .card{
+   
+    /* background-color: green; */
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.row-cols-1 .col .card img{
+    height: 680px;
+    width: 100%;
+    cursor: pointer;
+   
+}
+/* ///// */
+.row-cols-1 .col .card {
+    height: 100%;
+    /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .row-cols-1 .col .card img {
+    transition: transform .5s ease;
+  }
+  
+
+  .row-cols-1 .col .card img:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+  }
+  /* ///// */
+
+.row-cols-1 .col .card .card-body{
+    /* background-color: blue; */
+    height: 250px;
+    
+}
+
+.row-cols-1 .col .card .card-body .card-title{
+    flex: content;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+ /* background-color: red; */
+}
+
+.row-cols-1 .col .card .card-body .card-text{
+ font-weight: bold;
+}
+
+
+
+
 /* ////////////////////////////////////CSS for body////////////////////////////// */
 /* @font-face {
     font-family: 'Open Sans';
