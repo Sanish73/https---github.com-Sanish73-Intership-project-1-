@@ -111,8 +111,25 @@ nav ul li a{
     }
 }
 
+.packages{
+    padding: 2%;
+    background-color: rgba(214, 214, 214, 0.824);
+}
+.packages .box-container .box{
+    display: inline-flex;
+    background-color: red;
+}
 
+.box-container .box img{
+    width: 50%;
 
+}
+.box-container .box .content {
+    justify-content: right;
+    align-content: flex-end;
+        display: inline-block;
+
+}
 
 
 /* ////////////////////////////////////CSS for body////////////////////////////// */
