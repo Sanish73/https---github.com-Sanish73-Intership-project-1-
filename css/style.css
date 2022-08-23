@@ -117,18 +117,47 @@ nav ul li a{
 }
 .packages .box-container .box{
     display: inline-flex;
-    background-color: red;
+    /* background-color: ; */
 }
 
 .box-container .box img{
     width: 50%;
 
 }
+
+.box-container .box{
+    height: 380px; /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .box-container .box img {
+    transition: transform .5s ease;
+  }
+  
+
+.box-container .box img:hover {
+    transform: scale(1.06); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+  }
+
 .box-container .box .content {
     justify-content: right;
     align-content: flex-end;
         display: inline-block;
 
+}
+
+.box-container .box .content h3{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 3%;
+}
+.box-container .box .content p{
+    font-size: 24px;
+    font-weight: 650;
+    padding: 0 0 0 60px;
 }
 
 
