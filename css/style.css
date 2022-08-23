@@ -161,6 +161,10 @@ nav ul li a{
 }
 
 
+.row-cols-1{
+    background-color:  rgba(214, 214, 214, 0.824);
+}
+
 /* ////////////////////////////////////CSS for body////////////////////////////// */
 /* @font-face {
     font-family: 'Open Sans';
